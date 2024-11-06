@@ -1,0 +1,75 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.GaugeContainer {
+  position: relative;
+  width: 300;
+  height: 200;
+  background-color: #121212;
+}
+.LabelZero {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  color: #fff;
+  font-size: 12px;
+}
+.LabelTwentyFive {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  color: #fff;
+  font-size: 12px;
+}
+.LabelFifty {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  color: #fff;
+  font-size: 12px;
+}
+.LabelSeventyFive {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  color: #fff;
+  font-size: 12px;
+}
+.LabelHundred {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  color: #fff;
+  font-size: 12px;
+}
+.Needle {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 16px solid #ffffff;
+  transform-origin: center bottom;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.7));
+}
+.button {
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+}
